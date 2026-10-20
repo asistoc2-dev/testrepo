@@ -1,0 +1,29 @@
+users = ["Alice", "Bob", "Alice", "David", "Bob", "Alice"]
+amounts = [120, 5000, 80, 300, 7000, 150]
+locations = ["US", "CN", "US", "US", "CN", "KR"]
+
+fraud_count = 0
+fraud_amount = 0
+max_fraud = 0
+seen = {}
+
+for i, (user, amount, location) in enumerate(zip(users, amounts, locations)):
+    is_fraud = False
+
+    if amount >= 5000:
+        is_fraud = True
+
+    if user in seen and seen[user] != location:
+        is_fraud = True
+    else:
+        seen[user] = location
+
+    if is_fraud:
+        print("Fraud transaction at index:", i)
+        fraud_count += 1
+        fraud_amount += amount
+        max_fraud = max(max_fraud, amount)
+
+print("Total Fraud Transactions:", fraud_count)
+print("Total Fraud Amount:", fraud_amount)
+print("Max Fraud:", max_fraud)
