@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TravelBloom</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #102f3a;
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            gap: 20px;
+        }
+
+        nav h2 {
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav input {
+            padding: 10px;
+            border-radius: 20px;
+            margin-left: auto;
+        }
+
+        nav button {
+            padding: 10px;
+            background-color: teal;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        nav a:hover {
+        text-decoration: underline;
+    }
+        
+.home {
+    background-image: url("https://images.unsplash.com/photo-1793190785800-aeb223981bbe?q=80&w=692&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
+
+.home-content {
+    margin-left: 50px;
+    max-width: 500px;
+}
+
+.home h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.home p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.home button {
+    background-color: teal;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+    </style>
+    
+</head>
+
+<body>
+    <nav>
+        <h2>Travel Bloom</h2>
+
+        <a href="travel_recommendation.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="contact_us.html">Contact Us</a>
+
+        <input type="text" id="searchInput"
+               placeholder="Enter a destination">
+
+        <button id="searchBtn">Search</button>
+        <button id="resetBtn">Reset</button>
+    </nav>
+
+    <section class = "home">
+        <div class = "home-content">
+            <h1> EXPLORE DREAM DESTINATIONS</h1>
+
+            <p>There are many variations of passages of Lorem Ipsum available, 
+                but the majority have suffered alteration in 
+                some form, by injected humour, or 
+                randomised words which don't look even slightly believable. 
+                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden 
+                in the middle of text, etc.
+            </p>
+            <button> Book Now! </button>
+        </div>
+    </section>
+
+    <p id="searchResult"></p>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+
+</html>
