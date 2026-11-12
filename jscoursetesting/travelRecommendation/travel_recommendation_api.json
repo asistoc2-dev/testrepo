@@ -1,3 +1,4 @@
+
 {
     "countries": [
         {
@@ -7,7 +8,7 @@
                 {
                     "name": "Sydney, Australia",
                     "imageUrl": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9",
-                    "description": "test description"
+                    "description": "A beautiful city known for its Sydney Opera House and Harbour Bridge."
                 }
             ]
         },
@@ -17,10 +18,40 @@
             "cities": [
                 {
                     "name": "Tokyo, Japan",
-                    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOecxuEplr_O7BEgalZwVtRTEt1tj1mxFTtb6bHOMi3tkRJOEQuuG150IZ&s=10",
-                    "description": "test description"
+                    "imageUrl": "https://images.unsplash.com/photo-1542051841857-5f90071e7989",
+                    "description": "A bustling city famous for technology, shopping, and delicious food."
                 }
             ]
+        }
+    ],
+
+    "temples": [
+        {
+            "id": 1,
+            "name": "Angkor Wat, Cambodia",
+            "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Angkor_Wat%2C_Angkor_temples.JPG",
+            "description": "A magnificent ancient temple complex in Cambodia, famous for its beautiful architecture and rich history."
+        },
+        {
+            "id": 2,
+            "name": "Wat Arun, Thailand",
+            "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Wat_Arun.jpg",
+            "description": "A beautiful Buddhist temple in Bangkok known for its towering spires and riverside views."
+        }
+    ],
+
+    "beaches": [
+        {
+            "id": 1,
+            "name": "Bora Bora, French Polynesia",
+            "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Matira_Beach%2C_Bora_Bora%2C_French_Polynesia.jpg",
+            "description": "A tropical paradise known for crystal-clear waters, white sandy beaches, and stunning lagoons."
+        },
+        {
+            "id": 2,
+            "name": "Copacabana Beach, Brazil",
+            "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_Copacabana_beach.jpg",
+            "description": "A famous beach in Rio de Janeiro, Brazil, known for its beautiful coastline and vibrant atmosphere."
         }
     ]
 }
