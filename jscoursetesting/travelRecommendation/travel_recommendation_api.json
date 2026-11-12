@@ -29,13 +29,13 @@
         {
             "id": 1,
             "name": "Angkor Wat, Cambodia",
-            "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Angkor_Wat%2C_Angkor_temples.JPG",
+            "imageUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLeWMnm1EU5QKVG07Tf2GXiTEU-AoNkTagk2_nhu20WXUW7dvsKyS_1JH5nlvinZ75J8uKJ_JcIbwWctAIDOmKd8H1dz-tT0UerHU4WOHy2dI-rbWWlzGBuQkMPjAAwvOcp5gB9E=w270-h312-n-k-no",
             "description": "A magnificent ancient temple complex in Cambodia, famous for its beautiful architecture and rich history."
         },
         {
             "id": 2,
             "name": "Wat Arun, Thailand",
-            "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Wat_Arun.jpg",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcaSEPTpBDKTSW3mAmiyMTRRongJqbJpprJE6epArOTg&s=10",
             "description": "A beautiful Buddhist temple in Bangkok known for its towering spires and riverside views."
         }
     ],
